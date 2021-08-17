@@ -1,0 +1,15 @@
+.banner {
+  padding: 5px;
+  background-color: #0a8083;
+  text-align: center;
+  color: white;
+}
+
+.text {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.link {
+  color: white;
+}

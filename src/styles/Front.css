@@ -1,0 +1,22 @@
+p {
+    font-size: 1.2rem;
+}
+
+.title {
+    font-size: 3rem;
+}
+
+.btn {
+    border-radius: 50px !important;
+    background-color: #E95811 !important;
+    border-style: none !important;
+}
+
+.hero-text {
+    align-self: center;
+}
+
+.hero-img {
+    padding: 0;
+    margin: 0;
+}
