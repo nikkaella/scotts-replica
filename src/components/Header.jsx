@@ -1,6 +1,7 @@
 import React from 'react'
 import { Image, Nav, Navbar, Container, NavDropdown } from 'react-bootstrap';
 import logo from '../images/scotts_logo.svg';
+import hamburger from '../images/hamburger.png';
 import '../styles/Header.css';
 
 function Header() {
@@ -8,7 +9,7 @@ function Header() {
         <Container className='me-5'>
             <Navbar expand="lg">
                 <Navbar.Brand href='#home'>
-                    <Image src={logo} className='logo' alt='logo'/>
+                    <Image src={logo} className='logo' alt='logo' />
                 </Navbar.Brand>
                 <Nav className='ms-auto'>
                     <Nav.Link href="#">Deals</Nav.Link>
@@ -17,16 +18,13 @@ function Header() {
                     <Nav.Link href="#">Guides</Nav.Link>
                     <Nav.Link href="#">Invite</Nav.Link>
                     <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav>
-                            <NavDropdown title="Settings" id="basic-nav-dropdown">
-                                <Nav.Link href="#">Profile</Nav.Link>
-                                <Nav.Link href="#">Departure Airports</Nav.Link>
-                                <Nav.Link href="#">Notification Settings</Nav.Link>
-                                <Nav.Link href="#">Billing</Nav.Link>
-                                <Nav.Link href="#">Help Center</Nav.Link>
-                            </NavDropdown>
-                        </Nav>
-
+                        <NavDropdown title={<Image src={hamburger} className='menu' alt='burger menu' />}>
+                            <NavDropdown.Item href="#">Profile</NavDropdown.Item>
+                            <NavDropdown.Item href="#">Departure Airports</NavDropdown.Item>
+                            <NavDropdown.Item href="#">Notification Settings</NavDropdown.Item>
+                            <NavDropdown.Item href="#">Billing</NavDropdown.Item>
+                            <NavDropdown.Item href="#">Help Center</NavDropdown.Item>
+                        </NavDropdown>
                     </Navbar.Collapse>
                 </Nav>
             </Navbar>
