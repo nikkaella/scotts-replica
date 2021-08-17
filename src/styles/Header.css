@@ -1,7 +1,13 @@
-.logo{
-    width: 125px;
+.logo {
+  width: 125px;
 }
 .menu {
-    width: 20px;
-    align-self: center;
+  width: 20px;
+  align-self: center;
+}
+
+.container {
+  width: 100%;
+  margin-inline-start: 100px !important;
+  margin-inline-end: 200px !important;
 }

@@ -6,7 +6,7 @@ import '../styles/Header.css';
 
 function Header() {
     return (
-        <Container className='me-5'>
+        <Container className='container'>
             <Navbar expand="lg">
                 <Navbar.Brand href='#home'>
                     <Image src={logo} className='logo' alt='logo' />
