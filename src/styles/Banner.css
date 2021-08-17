@@ -1,12 +1,12 @@
 .banner {
-  padding: 5px;
+  padding: 10px;
   background-color: #0a8083;
   text-align: center;
   color: white;
 }
 
 .text {
-  font-size: 1rem;
+  font-size: 0.8rem;
   margin: 0;
 }
 

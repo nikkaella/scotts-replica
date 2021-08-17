@@ -7,7 +7,7 @@ function Front() {
     return (
         <div>
             <Row className='hero-img'>
-                <Col className='m-5 hero-text'>
+                <Col className='hero-text'>
                     <h1 className='title'>Never overpay for flights again.</h1>
                     <p>Amazing deals to the best destinations.<br />
                     You save up to 90%.</p>
